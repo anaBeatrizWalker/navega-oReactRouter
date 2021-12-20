@@ -3,7 +3,7 @@ import React from "react";
 
 const Content = props => {
     <main className="content">
-        Componente Content
+        <h1>Componente Content</h1>
     </main>
 }
 
