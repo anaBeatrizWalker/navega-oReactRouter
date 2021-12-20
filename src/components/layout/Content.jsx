@@ -12,13 +12,13 @@ const Content = props => {
     <main className="content">
         <Switch>
             <Route path="/about">
-                <About></About>
+                <About/>
             </Route>
             <Route path="/param/:id">{/*dois-pontos identifica como uma variavel id*/}
-                <Param></Param>
+                <Param/>
             </Route>
             <Route exact path="/">{/*procura exatamente pela rota que contém uma barra*/}
-                <Home></Home>
+                <Home/>
             </Route>
             <Route path="*">{/*pega todas as rotas diferentes das definidas acima*/}
                 <NotFound/>
