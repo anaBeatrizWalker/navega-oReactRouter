@@ -16,7 +16,7 @@ const Content = props => {
             <Route path="/param/:id">{/*dois-pontos identifica como uma variavel id*/}
                 <Param></Param>
             </Route>
-            <Route path="/">
+            <Route exact path="/">{/*procura exatamente pela rota que contém uma barra*/}
                 <Home></Home>
             </Route>
         </Switch>
